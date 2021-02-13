@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.84555636%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#97DD19" offset="0%"></stop>
+            <stop stop-color="#44EB00" offset="100%"></stop>
+        </linearGradient>
+        <path d="M82,38 L42,38 C39.25,38 37,40.25 37,43 L37,83 C37,85.75 39.25,88 42,88 L82,88 C84.75,88 87,85.75 87,83 L87,43 C87,40.25 84.75,38 82,38 Z M62,53 C67.5,53 72,57.5 72,63 C72,68.5 67.5,73 62,73 C56.5,73 52,68.5 52,63 C52,57.5 56.5,53 62,53 Z M43.25,83 C42.5,83 42,82.5 42,81.75 L42,60.5 L47.25,60.5 C47,61.25 47,62.25 47,63 C47,71.25 53.75,78 62,78 C70.25,78 77,71.25 77,63 C77,62.25 77,61.25 76.75,60.5 L82,60.5 L82,81.75 C82,82.5 81.5,83 80.75,83 L43.25,83 Z M82,49.25 C82,50 81.5,50.5 80.75,50.5 L75.75,50.5 C75,50.5 74.5,50 74.5,49.25 L74.5,44.25 C74.5,43.5 75,43 75.75,43 L80.75,43 C81.5,43 82,43.5 82,44.25 L82,49.25 Z" id="path-2"></path>
+        <filter x="-9.0%" y="-5.0%" width="118.0%" height="120.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about-us" transform="translate(-710.000000, -545.000000)">
+            <g id="instagram-logo" transform="translate(699.000000, 530.000000)">
+                <path d="M53.7935782,78.323374 C67.427849,81.3484181 70.6678272,101.980561 84.825737,97.8640504 C92.9430562,95.5038837 99.1735838,87.9488425 102.367919,81.28484 C105.562253,74.6208374 108.354032,62.4923668 102.367919,47.3547722 C98.8128601,38.3647935 92.7053019,30.7997672 77.4712281,25.6453244 C62.2371543,20.4908815 46.5858083,22.1246565 33.0816449,28.9271448 C19.5774815,35.7296332 11.4659368,46.9195258 11.4659368,60.0273221 C11.4659368,69.1790569 14.3814325,79.2589577 21.4170255,84.9714648 C28.4526184,90.6839718 40.1593075,75.2983299 53.7935782,78.323374 Z" id="Mask-Copy" fill="url(#linearGradient-1)" opacity="0.149999991" transform="translate(58.676386, 60.509824) rotate(127.000000) translate(-58.676386, -60.509824) "></path>
+                <g id="Shape" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="#4B9EFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+$L: 1200px;
+$M: 992px;
+$S: 768px;
+$XS:445px;
+@mixin mediaQuery($canvas) {
+  @if $canvas == L {
+    @media only screen and (max-width: $L) {
+      @content;
+    }
+  } @else if $canvas == M {
+    @media only screen and (max-width: $M) {
+      @content;
+    }
+  } @else if $canvas == S {
+    @media only screen and (max-width: $S) {
+      @content;
+    }
+  } @else if $canvas == XS {
+    @media only screen and (max-width: $XS) {
+      @content;
+    }
+  }
+}
+@mixin linearGradient($pos, $color-1, $color-2) {
+    background: linear-gradient($pos, $color-1 0%, $color-2 100%);
+}

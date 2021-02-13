@@ -1,0 +1,802 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+#animation-container {
+  position: relative;
+  height: 435px;
+  border-radius: 0 0 180px;
+  -webkit-box-shadow: inset -5px -21px 18px -20px #00000052;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  box-shadow: inset -5px -21px 18px -20px #00000052;
+  overflow: hidden;
+}
+
+.street-bg {
+  position: absolute;
+  height: 435px;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 0 0;
+  -webkit-animation: street 65s linear infinite;
+  animation: street 30s linear infinite;
+  top: 0px;
+    left: -700%;
+}
+
+@media only screen and (max-width: 992px) {
+  #animation-container {
+    border-radius: 0 0 60px 0;
+  }
+}
+
+@-webkit-keyframes street {
+  from {
+    -webkit-transform: translate(-200vw, 0);
+    transform: translate(-200vw, 0);
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes street {
+  from {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  to {
+    -webkit-transform: translate(200vw, 0);
+    transform: translate(200vw, 0);
+  }
+}
+
+.ciry-animation * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ciry-animation {
+  pointer-events: none;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0);
+  width: 595px;
+  position: relative;
+  height: 420px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.ciry-animation .shape {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 36.19%;
+  height: 4.76%;
+  width: 15.8%;
+  position: absolute;
+  margin: 0;
+  left: 40.17%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .shape1 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 9.76%;
+  height: 4.76%;
+  width: 15.8%;
+  position: absolute;
+  margin: 0;
+  left: 21.85%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .shapecopy {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 20px;
+  width: 94px;
+  position: absolute;
+  margin: 0;
+  left: 310px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .satellite {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 16px;
+  height: 70px;
+  width: 71px;
+  position: absolute;
+  margin: 0;
+  left: 524px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .shapecopy1 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 23.33%;
+  height: 4.76%;
+  width: 15.8%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform, opacity;
+}
+
+.ciry-animation .shape2 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 108px;
+  height: 20px;
+  width: 94px;
+  position: absolute;
+  margin: 0;
+  left: 418px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 282px;
+  height: 138px;
+  width: 152px;
+  position: absolute;
+  margin: 0;
+  left: 222px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .group3 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 0px;
+  height: 47.1%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .group3 .group2 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .group3 .group2 .group {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .turn {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  right: 1.32%;
+  top: -13.04%;
+  height: 72.46%;
+  width: 96.05%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.0082;
+  will-change: transform;
+}
+
+.ciry-animation .car .turn .rectangle {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .turn .turnleft {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  right: 19.86%;
+  top: 36%;
+  height: 23%;
+  width: 13.01%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .turn .u067eu06ccu0686u0634u062fu06ccu062f {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 34%;
+  height: 27px;
+  width: 43.84%;
+  position: absolute;
+  margin: 0;
+  left: 19.86%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .fast {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  right: -3.29%;
+  top: -13.04%;
+  height: 72.46%;
+  width: 105.26%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.0017;
+  will-change: transform;
+}
+
+.ciry-animation .car .fast .rectangle1 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .fast .fast2 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: 21px;
+  width: 27px;
+  position: absolute;
+  margin: 0;
+  left: 103px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .fast .u0634u062au0627u0628u0634u062fu06ccu062f {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 35%;
+  height: 25px;
+  width: 44.38%;
+  position: absolute;
+  margin: 0;
+  left: 16.88%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .temp {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  right: -0.66%;
+  top: -13.04%;
+  height: 72.46%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.0054;
+  will-change: transform;
+}
+
+.ciry-animation .car .temp .rectangle2 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .temp .celsius {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 35px;
+  height: 24px;
+  width: 11px;
+  position: absolute;
+  margin: 0;
+  left: 102px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation .car .temp .u062eu0637u0627u06ccu062fu0645u0627 {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 35%;
+  height: 25px;
+  width: 39.47%;
+  position: absolute;
+  margin: 0;
+  left: 21.05%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  will-change: transform;
+}
+
+.ciry-animation.keyframe1-to-keyframe2 .car {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, -20px);
+  -ms-transform: translate(0, -20px);
+  transform: translate(0, -20px);
+}
+
+.ciry-animation.keyframe1-to-keyframe2 .shapecopy1 {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(280px, -0.18%);
+  -ms-transform: translate(280px, -0.18%);
+  transform: translate(280px, -0.18%);
+  opacity: 0;
+}
+
+.ciry-animation.keyframe1-to-keyframe2 .shape {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(-11.81%, 0.09%);
+  -ms-transform: translate(-11.81%, 0.09%);
+  transform: translate(-11.81%, 0.09%);
+}
+
+.ciry-animation.keyframe1-to-keyframe2 .shape2 {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(-61px, -1px);
+  -ms-transform: translate(-61px, -1px);
+  transform: translate(-61px, -1px);
+}
+
+.ciry-animation.keyframe1-to-keyframe2 .shape1 {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe1-to-keyframe2 .shapecopy {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe1-to-keyframe2 .satellite {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe2-to-keyframe3 .shape {
+  -webkit-transition: all 3.3s ease-in-out 0s;
+  -o-transition: all 3.3s ease-in-out 0s;
+  transition: all 3.3s ease-in-out 0s;
+  -webkit-transform: translate(9.88%, 0.01%);
+  -ms-transform: translate(9.88%, 0.01%);
+  transform: translate(9.88%, 0.01%);
+}
+
+.ciry-animation.keyframe2-to-keyframe3 .shape2 {
+  -webkit-transition: all 3.3s ease-in-out 0s;
+  -o-transition: all 3.3s ease-in-out 0s;
+  transition: all 3.3s ease-in-out 0s;
+  -webkit-transform: translate(-252px, -11px);
+  -ms-transform: translate(-252px, -11px);
+  transform: translate(-252px, -11px);
+}
+
+.ciry-animation.keyframe2-to-keyframe3 .car {
+  -webkit-transition: all 3.3s ease-in-out 0s;
+  -o-transition: all 3.3s ease-in-out 0s;
+  transition: all 3.3s ease-in-out 0s;
+  -webkit-transform: translate(0, 1px);
+  -ms-transform: translate(0, 1px);
+  transform: translate(0, 1px);
+}
+
+.ciry-animation.keyframe2-to-keyframe3 .shapecopy1 {
+  -webkit-transition: all 3.3s ease-in-out 0s;
+  -o-transition: all 3.3s ease-in-out 0s;
+  transition: all 3.3s ease-in-out 0s;
+  -webkit-transform: translate(489px, 0.02%);
+  -ms-transform: translate(489px, 0.02%);
+  transform: translate(489px, 0.02%);
+  opacity: 1;
+}
+
+.ciry-animation.keyframe2-to-keyframe3 .shape1 {
+  -webkit-transition: all 3.3s ease-in-out 0s;
+  -o-transition: all 3.3s ease-in-out 0s;
+  transition: all 3.3s ease-in-out 0s;
+  -webkit-transform: translate(-15.28%, 9.54%);
+  -ms-transform: translate(-15.28%, 9.54%);
+  transform: translate(-15.28%, 9.54%);
+}
+
+.ciry-animation.keyframe2-to-keyframe3 .shapecopy {
+  -webkit-transition: all 3.3s ease-in-out 0s;
+  -o-transition: all 3.3s ease-in-out 0s;
+  transition: all 3.3s ease-in-out 0s;
+  -webkit-transform: translate(-39px, 0);
+  -ms-transform: translate(-39px, 0);
+  transform: translate(-39px, 0);
+}
+
+.ciry-animation.keyframe2-to-keyframe3 .satellite {
+  -webkit-transition: all 3.3s ease-in-out 0s;
+  -o-transition: all 3.3s ease-in-out 0s;
+  transition: all 3.3s ease-in-out 0s;
+  -webkit-transform: translate(-90px, 19px);
+  -ms-transform: translate(-90px, 19px);
+  transform: translate(-90px, 19px);
+}
+
+.ciry-animation.keyframe2-to-keyframe3 .car .temp {
+  -webkit-transition: all 1.5s ease-in-out 0s;
+  -o-transition: all 1.5s ease-in-out 0s;
+  transition: all 1.5s ease-in-out 0s;
+  -webkit-transform: translate(0, -0.2%);
+  -ms-transform: translate(0, -0.2%);
+  transform: translate(0, -0.2%);
+  opacity: 1;
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .shape {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(-30.29%, 0.25%);
+  -ms-transform: translate(-30.29%, 0.25%);
+  transform: translate(-30.29%, 0.25%);
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .shape2 {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  opacity: 0.995;
+  max-width: 69158px;
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .car {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(2px, -18px);
+  -ms-transform: translate(2px, -18px);
+  transform: translate(2px, -18px);
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .shapecopy1 {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(18px, 0.19%);
+  -ms-transform: translate(18px, 0.19%);
+  transform: translate(18px, 0.19%);
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .shape1 {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(-3.27%, 0.25%);
+  -ms-transform: translate(-3.27%, 0.25%);
+  transform: translate(-3.27%, 0.25%);
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .shapecopy {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(93px, 0);
+  -ms-transform: translate(93px, 0);
+  transform: translate(93px, 0);
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .car .temp {
+  -webkit-transition: all 0.2s ease-in-out 0.5s;
+  -o-transition: all 0.2s ease-in-out 0.5s;
+  transition: all 0.2s ease-in-out 0.5s;
+  opacity: 0;
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .satellite {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(-89px, 69px);
+  -ms-transform: translate(-89px, 69px);
+  transform: translate(-89px, 69px);
+}
+
+.ciry-animation.keyframe3-to-keyframe4 .car .fast {
+  -webkit-transition: all 2.6s ease-in-out 0.9s;
+  -o-transition: all 2.6s ease-in-out 0.9s;
+  transition: all 2.6s ease-in-out 0.9s;
+  -webkit-transform: translate(0.02, 0.2%);
+  -ms-transform: translate(0.02, 0.2%);
+  transform: translate(0.02, 0.2%);
+  opacity: 1;
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .shape {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(1.61%, 0);
+  -ms-transform: translate(1.61%, 0);
+  transform: translate(1.61%, 0);
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .shape2 {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(-112px, 29px);
+  -ms-transform: translate(-112px, 29px);
+  transform: translate(-112px, 29px);
+  opacity: 0;
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .car {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(3px, -1px);
+  -ms-transform: translate(3px, -1px);
+  transform: translate(3px, -1px);
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .shapecopy1 {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(166px, -11.94%);
+  -ms-transform: translate(166px, -11.94%);
+  transform: translate(166px, -11.94%);
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .car .fast {
+  -webkit-transition: all 0.2s ease-in-out 0.5s;
+  -o-transition: all 0.2s ease-in-out 0.5s;
+  transition: all 0.2s ease-in-out 0.5s;
+  -webkit-transform: translate(0, -0.1%);
+  -ms-transform: translate(0, -0.1%);
+  transform: translate(0, -0.1%);
+  opacity: 0;
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .shape1 {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(-18.33, 14.54%);
+  -ms-transform: translate(-18.33, 14.54%);
+  transform: translate(-18.33, 14.54%);
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .shapecopy {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(-76px, 33px);
+  -ms-transform: translate(-76px, 33px);
+  transform: translate(-76px, 33px);
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .car .temp {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  opacity: 0.006;
+  max-width: 60581px;
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .satellite {
+  -webkit-transition: all 3.5s ease-in-out 0s;
+  -o-transition: all 3.5s ease-in-out 0s;
+  transition: all 3.5s ease-in-out 0s;
+  -webkit-transform: translate(-21px, 38px);
+  -ms-transform: translate(-21px, 38px);
+  transform: translate(-21px, 38px);
+}
+
+.ciry-animation.keyframe4-to-keyframe5 .car .turn {
+  -webkit-transition: all 2.5s ease-in-out 1s;
+  -o-transition: all 2.5s ease-in-out 1s;
+  transition: all 2.5s ease-in-out 1s;
+  -webkit-transform: translate(0.01%, -0.1%);
+  -ms-transform: translate(0.01%, -0.1%);
+  transform: translate(0.01%, -0.1%);
+  opacity: 1;
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .shape {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .car .turn {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 0;
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .shape2 {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .car {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .shapecopy1 {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .car .fast {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .shape1 {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .shapecopy {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .car .temp {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ciry-animation.keyframe5-to-keyframe6 .satellite {
+  -webkit-transition: all 3s ease-in-out 0s;
+  -o-transition: all 3s ease-in-out 0s;
+  transition: all 3s ease-in-out 0s;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}

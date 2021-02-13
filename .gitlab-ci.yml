@@ -1,0 +1,20 @@
+stages:
+  - deploy
+
+
+PROD_deploy:
+  stage: deploy
+  tags:
+    - atr-rah-runner
+  script:
+    - cp -ruf . /var/wordpress/data/atrovan
+    #- >- 
+    #    curl 
+    #    -X DELETE 
+    #    -H "Accept: application/json" 
+    #    -H "Accept-Language: fa" 
+    #    -H "Authorization: Apikey ce6e4c89-a0da-44ce-a4ec-3e4640a8b08b"
+    #    https://napi.arvancloud.com/cdn/4.0/domains/navgoon.com/caching?purge=all&protocol=http&protocol=https&domains=navgoon.com&domains=www.navgoon.com
+  except:
+    changes:
+      #- .gitlab-ci.yml
